@@ -36,7 +36,7 @@ const NewIssuePage = () => {
       setSubmitting(false);
       setError("An unexpected error occurred.");
     }
-  })
+  });
 
   return (
     <div className="max-w-xl">
@@ -46,10 +46,7 @@ const NewIssuePage = () => {
         </Callout.Root>
       )}
 
-      <form
-        onSubmit={onSubmit}
-        className=" space-y-3"
-      >
+      <form onSubmit={onSubmit} className=" space-y-3">
         <TextField.Root
           placeholder="Title"
           {...register("title")}
