@@ -1,7 +1,7 @@
 "use client";
 import ErrorMessage from "@/app/components/ErrorMessage";
 import Spinner from "@/app/components/Spinner";
-import issueSchema from "@/app/validationSchema";
+import { issueSchema } from "@/app/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Issue } from "@prisma/client";
 import { Button, Callout, TextField } from "@radix-ui/themes";
@@ -50,11 +50,13 @@ const IssueForm = ({ issue }: { issue?: Issue }) => {
       )}
 
       <form onSubmit={onSubmit} className=" space-y-3">
-        <TextField.Root
-          placeholder="Title"
-          defaultValue={issue?.title}
-          {...register("title")}
-        ></TextField.Root>
+      <TextField.Root>
+          <TextField.Input
+            defaultValue={issue?.title}
+            placeholder="Title"
+            {...register('title')}
+          />
+        </TextField.Root>
         <ErrorMessage>{errors.title?.message}</ErrorMessage>
         <Controller
           name="description"
