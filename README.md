@@ -27,10 +27,4 @@ The **Issue Tracker** is a robust and scalable full-stack application designed f
 
 ## Deployment
 
-The application is deployed using [Vercel](https://issue-tracker-ebon-rho.vercel.app/) and is ready for production-grade use. 
-
-## Installation
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/nguyetha79/issue-tracker.git
+The application is deployed using [Vercel](https://issue-tracker-ebon-rho.vercel.app/)
