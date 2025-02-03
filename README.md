@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Issue Tracker 
 
-## Getting Started
+The **Issue Tracker** is a robust and scalable full-stack application designed for managing and tracking issues efficiently. Built with modern web technologies, this application offers a feature-rich interface, ensuring seamless task management for teams of all sizes.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Interactive Dashboard**  
+  - Real-time charts and statistics for issue tracking and performance monitoring.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Advanced Filtering and Sorting**  
+  - Flexible options to organize and locate issues based on priority, status, and other parameters.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Dynamic Forms with Client-Side Validation**  
+  - User-friendly forms with validation for accurate and secure data input.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **User Authentication and Role-Based Access Control**  
+  - Secure login system with distinct roles (e.g., admin, user) for access control.
 
-## Learn More
+- **Modal Dialog Boxes and Toast Notifications**  
+  - Enhanced user interactions with modals for confirmation and toast messages for real-time feedback.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: Next.js, Typescript, Tailwind, RadixUI
+- **Backend**: Next.js, NextAuth.js, Prisma 
+- **Database**: MySQL  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The application is deployed using [Vercel](https://issue-tracker-ebon-rho.vercel.app/)
